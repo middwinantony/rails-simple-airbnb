@@ -1,0 +1,7 @@
+<%= form_with model: @flat do |a| %>
+  <%= a.label :name %>
+  <%= a.text_field :name %>
+  <%= a.label :address %>
+  <%= a.text_field :address %>
+  <%= a.submit "Update Listing" %>
+<% end %>
